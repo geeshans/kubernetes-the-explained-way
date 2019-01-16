@@ -1,8 +1,8 @@
-# Kubernetes The Hard Way
+# Kubernetes The Explained Way
 
-This tutorial walks you through setting up Kubernetes the hard way. This guide is not for people looking for a fully automated command to bring up a Kubernetes cluster. If that's you then check out [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine), or the [Getting Started Guides](http://kubernetes.io/docs/getting-started-guides/).
+This tutorial walks you through setting up Kubernetes in a more detailed way. It is a fork of the awesome repo by [@kelseyhightower](https://github.com/kelseyhightower). 
 
-Kubernetes The Hard Way is optimized for learning, which means taking the long route to ensure you understand each task required to bootstrap a Kubernetes cluster.
+Kubernetes The Detailed Way is optimized for learning, which means taking the long route to ensure you understand each task required to bootstrap a Kubernetes cluster. In additon to the original repo I have tried to add some comments and more indept information about the commandline options. 
 
 > The results of this tutorial should not be viewed as production ready, and may receive limited support from the community, but don't let that stop you from learning!
 
@@ -12,7 +12,7 @@ The target audience for this tutorial is someone planning to support a productio
 
 ## Cluster Details
 
-Kubernetes The Hard Way guides you through bootstrapping a highly available Kubernetes cluster with end-to-end encryption between components and RBAC authentication.
+Kubernetes The Explained Way guides you through bootstrapping a highly available Kubernetes cluster with end-to-end encryption between components and RBAC authentication.
 
 * [Kubernetes](https://github.com/kubernetes/kubernetes) 1.12.0
 * [containerd Container Runtime](https://github.com/containerd/containerd) 1.2.0-rc.0
